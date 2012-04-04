@@ -1,0 +1,41 @@
+
+
+/*/////////////////////////////
+/   Debug / Dev
+///////////*/
+.dev, .navbar .nav > li.dev{display:none;}
+body.debug .dev, body.debug .navbar .nav > li.dev{display:block;}
+
+
+/*///////////////////////////////////////////////
+/   Helpers
+/////////////////////////////*/
+.red{background:#f00;}
+.r{border:1px solid #f00;}
+.right{float:right;}
+.left{float:left;}
+.hidden{display:none}
+
+/*/////////////////////////////
+/   General
+///////////*/
+body.logged .logged{display:block;}
+body.logged .not-logged{display:none;}
+body.not-logged .logged{display:none;}
+body.not-logged .not-logged{display:block;}
+
+::selection {
+	background: #51d4ff; /* Safari */
+	color:#fff;
+	}
+	
+	/*/////////////////////////////
+  /   Home
+  ///////////*/
+	
+	
+	
+	
+	
+	
+	

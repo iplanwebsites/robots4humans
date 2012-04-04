@@ -1,0 +1,29 @@
+CACHE MANIFEST
+# 2012-04-1:v2
+
+# Explicitly cached 'master entries'.
+CACHE:
+/favicon.ico
+/fonts/sketchetik_light/stylesheet.css
+/fonts/sketchetik_light/Sketchetik-Light.woff
+/img/loading1.gif
+/bootstrap/img/glyphicons-halflings-white.png
+/bootstrap/img/glyphicons-halflings.png
+
+# Resources that require the user to be online.
+NETWORK:
+*
+/api*
+/
+http://api.twitter.com
+http://facebook.com
+
+# static.html will be served if main.py is inaccessible
+# offline.jpg will be served in place of all images in images/large/
+# offline.html will be served in place of all other .html files
+# FALLBACK:
+# /main.py /static.html
+# images/large/ images/offline.jpg
+# *.html /offline.html
+
+# tuto: http://www.html5rocks.com/en/tutorials/appcache/beginner/
