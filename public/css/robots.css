@@ -27,14 +27,21 @@ body.not-logged .not-logged{display:block;}
 ::selection {
 	background: #51d4ff; /* Safari */
 	color:#fff;
-	}
+}
 	
 	/*/////////////////////////////
   /   Home
   ///////////*/
+	h1.boom{margin-top:60px;margin-bottom:80px; font-size:88px;}
 	
 	
-	
+	.main.container{max-width:640px;}
+	/*/////////////////////////////
+  /   Fonts
+  ///////////*/
+  h1, .sketch, .row.features h2{ font-family: 'Oswald', sans-serif, Arial, "Sketchetik Light"; font-weight:normal; }
+
+  
 	
 	
 	
