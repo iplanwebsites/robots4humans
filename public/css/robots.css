@@ -32,7 +32,10 @@ body.not-logged .not-logged{display:block;}
 	/*/////////////////////////////
   /   Home
   ///////////*/
-	h1.boom{margin-top:60px;margin-bottom:80px; font-size:88px; line-height:1.1em;}
+	h1.boom{margin-top: 60px;
+  margin-bottom: 30px;
+  font-size: 64px;
+  line-height:1.1em;}
 	body{padding-bottom:30px;}
 	
 	.main.container{max-width:640px;}
